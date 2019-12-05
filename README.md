@@ -15,7 +15,7 @@ meizizi/ss-fly.sh -i password 端口
 $ sudo chmod -R 777 某一目录
 注：如果需要改密码或者改端口，只需要重新再执行一次搭建ss脚本代码就可以了，或者修改/etc/shadowsocks.json这个配置文件（如何修改在公众号回复vim编辑器使用）。
 
-3.相关ss操作
+3.相关ss操作 
 
 修改配置文件：vim /etc/shadowsocks.json
 停止ss服务：ssserver -c /etc/shadowsocks.json -d stop
